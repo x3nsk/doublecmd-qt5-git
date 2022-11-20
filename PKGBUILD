@@ -1,7 +1,7 @@
 # Maintainer: none
 
 pkgname=doublecmd-qt5-git
-pkgver=1.1.0a.r10352.7914bc89b
+pkgver=1.1.0a.r10452.559b0f671
 pkgrel=1
 pkgdesc="twin-panel (commander-style) file manager (QT5)"
 arch=(x86_64)
