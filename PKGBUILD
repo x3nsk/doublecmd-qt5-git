@@ -30,4 +30,3 @@ package() {
 	cd "$srcdir/doublecmd"
         install/linux/install.sh --install-prefix="${pkgdir}"
 }
-
