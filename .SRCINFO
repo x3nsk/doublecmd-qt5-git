@@ -1,6 +1,6 @@
 pkgbase = doublecmd-qt5-git
 	pkgdesc = twin-panel (commander-style) file manager (QT5)
-	pkgver = 1.0.0a
+	pkgver = 1.2.0a
 	pkgrel = 1
 	url = https://doublecmd.sourceforge.io/
 	arch = x86_64
