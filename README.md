@@ -1,2 +1,2 @@
-# doublecmd-qt5-git
+# PKGBUILD doublecmd-qt5-git
 PKGBUILD for doublecmd git version
