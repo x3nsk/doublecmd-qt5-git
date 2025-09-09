@@ -2,14 +2,14 @@
 
 pkgname=doublecmd-qt5-git
 provides=('doublecmd')
-pkgver=1.2.0a.r11159.d2bbc98e3
+pkgver=1.2.0a.r12356.fe4064873
 pkgrel=1
 pkgdesc="twin-panel (commander-style) file manager (QT5)"
 arch=(x86_64)
 url=https://doublecmd.sourceforge.io/
 license=(GPL2)
 conflicts=(doublecmd doublecmd-qt doublecmd-qt5)
-depends=(qt5-base qt5-x11extras qt5-webkit qt5pas)
+depends=(qt5-base qt5-x11extras qt5-webkit qt5pas kxmlgui5)
 makedepends=(fpc lazarus)
 source=("git+https://github.com/doublecmd/doublecmd.git")
 sha256sums=('SKIP')
