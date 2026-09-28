@@ -2,7 +2,7 @@
 
 pkgname=doublecmd-qt5-git
 provides=('doublecmd')
-pkgver=1.2.0a.r12356.fe4064873
+pkgver=1.3.0a.r13524.5369d5df9
 pkgrel=1
 pkgdesc="twin-panel (commander-style) file manager (QT5)"
 arch=(x86_64)
@@ -16,7 +16,7 @@ sha256sums=('SKIP')
 
 pkgver() {
   cd "$srcdir/doublecmd"
-  printf "1.2.0a.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+  printf "1.3.0a.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 build() {
